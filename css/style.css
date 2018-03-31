@@ -10,7 +10,8 @@ select {
     height: 35px; width: 100px; font-size: 100%; text-align: right; font-family: 'Sanet';
 }
 select option{text-align: right; font-family: 'Sanet'; padding:10px; }
-input.rate {background: transparent; padding: 0; text-align: right }
+input.rate {/*background: transparent;*/ padding: 0; text-align: right }
+input#pseudorate, input#pday  {height: 30px; color: black}
 
 table.accrue-amortization{ border-collapse: collapse; min-width: 400px;}
 table.accrue-amortization td,th{
@@ -31,3 +32,8 @@ td.accrue-payment-amount, td.accrue-total-interest, td.accrue-total-payments {wi
 td.accrue-balance{width: 200px; font-weight: bold}
 td.accrue-total-payments{background: #feefd1;}
 td.accrue-payment-amount {background: #feefd1; font-weight: bold}
+
+.printer {
+    float: left;
+    cursor: pointer;
+}
